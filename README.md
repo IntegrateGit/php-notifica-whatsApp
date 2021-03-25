@@ -3,8 +3,9 @@
  
  > ` Faça o download do arquivo `[whatsApp.php](ithub.com/IntegrateGit/php-notifique-me-whatsApp/edit/main/whatsApp.php)` adicione o mesmo em seu projeto`
 
- ### 1- Criando uma conexão com as credenciais obtida em https://URLDALP neste exemplo o programador usa o secretKey e o clienteId
+ ### Criando uma conexão com as credenciais obtida em https://cad-notifique-me.herokuapp.com/ neste exemplo o programador usa o secretKey e o clienteId
 Abrar o arquivo whatsApp.php
+
 ```php
     private $msg;
     private $titulo;
