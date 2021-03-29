@@ -3,14 +3,14 @@
  
  > ` Faça o download do arquivo `[whatsApp.php](https://github.com/IntegrateGit/php-notifica-whatsApp/blob/main/whatsApp.php)` adicione o mesmo em seu projeto`
 
- ### Criando uma conexão com as credenciais obtida em https://cad-notifique-me.herokuapp.com/ neste exemplo o programador usa o secretKey e o clienteId
+ ### Criando uma conexão com as credenciais obtida em https://notifica.integrate.com.br neste exemplo o programador usa o secretKey e o clienteId
 Abrar o arquivo whatsApp.php
 
 ```php
     private $msg;
     private $titulo;
     private $numero;
-    private $urlBase = "https://notifique-me.herokuapp.com";
+    private $urlBase = "https://notifica.integrate.com.br";
     private $clienteId = "Seu clienteId";
     private $secretKey = "Sua chave secreta";
     private $grupo = null;
@@ -41,7 +41,7 @@ $whats->send();
 >
 > [C#, .net, SDK completo para instalar via nuget](https://github.com/IntegrateGit/Notifique.me)
 > 
-> [Python, modulo para instalar via pip](https://github.com/IntegrateGit/Notifique-me-python)
+> [Python, modulo para instalar via pip](https://github.com/IntegrateGit/Notifica-SDK-.net-core)
 
 
 # Gostou do Notifique.me?
@@ -52,8 +52,8 @@ Agora basta por a mão na massa e sair notificando seus clientes e sua equipe, h
 >
 > ### Crie sua conta hoje mesmo é completamente gratis 
 >
->* [Para mais informações acesse](https://cad-notifique-me.herokuapp.com/)
+>* [Para mais informações acesse](https://notifica.integrate.com.br/)
 >
->* [Criar uma conta Empresarial](https://cad-notifique-me.herokuapp.com/business)
+>* [Criar uma conta Empresarial](https://notifica.integrate.com.br/cadastro-de-empresa/)
 >
->* [Criar uma conta Desenvolvedor](https://cad-notifique-me.herokuapp.com/developer)
+>* [Criar uma conta Desenvolvedor](https://notifica.integrate.com.br/cadastro-de-desenvolvedor/)
